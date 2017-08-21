@@ -214,7 +214,7 @@ plt.axis('off')
 
 
 
-plt.savefig('maiiiz_cesm.jpg',dpi=300,bbox_inches='tight')
+plt.savefig('maiiiz_cesmt.jpg',dpi=300,bbox_inches='tight')
 #plt.show()
 
 
@@ -234,7 +234,7 @@ plt.tick_params(axis='both',labelsize=15)
 
 plt.xlabel('Iizumi-Crops (g/$\mathregular{m^2}$)',fontsize=18)
 plt.ylabel('Model (g/$\mathregular{m^2}$)',fontsize=18)
-plt.savefig('scatter_maiiiz_cesm.png',bbox_inches='tight')
+plt.savefig('scatter_maiiiz_cesmt.png',bbox_inches='tight')
 #plt.show()
 
 

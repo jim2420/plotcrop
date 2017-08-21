@@ -518,7 +518,7 @@ for i, name1 in enumerate(name):
 	plt.tick_params(axis='both',labelsize=18)
 
 
-	plt.savefig('maize_fao1_{0}.png'.format(name1),dpi=300,bbox_inches='tight')
-#plt.show()
+	plt.savefig('maize_fao1test_{0}.png'.format(name1),dpi=300,bbox_inches='tight')
+plt.show()
 
 
